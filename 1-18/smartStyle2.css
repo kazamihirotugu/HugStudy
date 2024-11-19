@@ -1,5 +1,5 @@
 /*ウィンドウ幅が最大767pxまでの場合に適用(タブレット用)*/
-@media screen and (min-width:480px) and (max-width:767px){
+@media screen and (min-width:480px) and (max-width:px){
 .body {
     width: 80%;
 }
@@ -109,15 +109,16 @@
     width: 150px;
     height: 250px;
     background-color: #3056d1;
-}
+}*/
 .a-right-top {
     width: 150px;
-    height: 150px;
+    height: 250px;
     display: flex;
+    flex-direction: column-reverse; /* たて方向逆並び */
 }
 .a-right-top-left {
     width: 150px;
     height: 150px;
     background-color: #e015c5;
-}*/
+}
 }
