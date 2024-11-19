@@ -1,0 +1,63 @@
+@media screen and (min-width: 768px){
+body {
+    width: 100%;
+}
+.header {
+    background-color: #FFCE7a;
+    height: 100px;
+    width: 400px;
+}
+.a-left {
+    background-color: #9DDDF4;
+    width: 150px;
+    height: 250px;
+}
+.topf{
+    background-color:#C2FFC8;
+    width: 150px;
+    height: 50px;
+        /* 追加 */
+} 
+.a-right-top-right {
+    background-color: #F89C9C;
+    width: 100px;
+    height: 150px;
+        /* 追加 */
+}
+.center {
+    background-color:#FFC2C5;
+    width: 150px; 
+    height: 100px;
+}
+.a-right-bot{
+    background-color:#FFF083;
+    width: 250px;
+    height: 100px;
+        /* 追加 */
+}
+.footer {
+    background-color: #BEA5FF;
+    height: 100px;
+    width: 400px;
+}
+.a {
+    height: 250px;
+    width: 400px;
+    display: flex;
+}
+.a-right {
+    height: 250px;
+    width: 250px;
+    background-color: #3056d1;
+}
+.a-right-top {
+    height: 150px;
+    width: 250px;
+    display: flex;
+}
+.a-right-top-left {
+    height: 150px;
+    width: 150px;
+    background-color: #e015c5;
+}
+}

@@ -1,0 +1,123 @@
+/*ウィンドウ幅が最大767pxまでの場合に適用(タブレット用)*/
+@media screen and (min-width:480px) and (max-width:767px){
+.body {
+    width: 80%;
+}
+.header {
+    background-color: #FFCE7a;
+    width: 300px;
+    height: 100px;
+}
+.a-left {
+    background-color: #9DDDF4;
+    width: 150px;
+    height: 250px;
+}
+.topf{
+    background-color:#C2FFC8;
+    width: 125px;
+    height: 50px;
+} 
+.a-right-top-right {
+    background-color: #F89C9C;
+    width: 75px;
+    height: 150px;
+}
+.center {
+    background-color:#FFC2C5;
+    width: 125px; 
+    height: 100px;
+}
+.a-right-bot{
+    background-color:#FFF083;
+    width: 200px;
+    height: 100px;
+}
+.footer {
+    background-color: #BEA5FF;
+    height: 100px;
+    width: 300px;
+}
+.a {
+    height: 250px;
+    width: 300px;
+    display: flex;
+}
+.a-right {
+    height: 250px;
+    width: 200px;
+    background-color: #3056d1;
+}
+.a-right-top {
+    height: 150px;
+    width: 200px;
+    display: flex;
+}
+.a-right-top-left {
+    height: 150px;
+    width: 125px;
+    background-color: #e015c5;
+}
+}
+
+/*ウィンドウ幅が最大479pxまでの場合に適用(スマホ用)*/
+@media screen and (max-width: 479px) {
+.body {
+    width: 400px;
+}
+.header {
+    background-color: #FFCE7a;
+    width: 150px;
+    height: 100px;
+}
+.a-left {
+    background-color: #9DDDF4;
+    width: 150px;
+    height: 100px;
+}
+.topf{
+    background-color:#C2FFC8;
+    width: 150px;
+    height: 50px;
+} 
+.a-right-top-right {
+    background-color: #F89C9C;
+    width: 150px;
+    height: 100px;
+}
+.center {
+    background-color:#FFC2C5;
+    width: 150px; 
+    height: 100px;
+}
+.a-right-bot{
+    background-color:#FFF083;
+    width: 150px;
+    height: 100px;
+}
+.footer {
+    background-color: #BEA5FF;
+    width: 150px;
+    height: 100px;
+}
+/*.a {
+    width: 150px;
+    height: 250px;
+    display: flex;
+}
+.a-right {
+    width: 150px;
+    height: 250px;
+    background-color: #3056d1;
+}
+.a-right-top {
+    width: 150px;
+    height: 150px;
+    display: flex;
+}
+.a-right-top-left {
+    width: 150px;
+    height: 150px;
+    background-color: #e015c5;
+}*/
+}
