@@ -1,0 +1,80 @@
+/*ウィンドウ幅が最大479pxまでの場合に適用(スマホ用)*/
+@media screen and (max-width: 479px){
+    body {
+        width: 100%;
+    }
+    .header {
+        background-color: #FFCE7a;
+        height: 180px;
+        width: 200px;
+        padding-top: 20px;
+    }
+    .a-left {
+        background-color: #9DDDF4;
+        width: 200px;
+        height: 100px;
+    }
+    .header-right-topf{
+        background-color:#C2FFC8;
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 10px;
+    } 
+    .topf{
+        background-color:#C2FFC8;
+        width: 200px;
+        height: 180px;
+        padding-top: 20px;
+    } 
+    .center {
+        background-color:#FFC2C5;
+        width: 140px; 
+        height: 40px;
+        margin: 5px;
+
+    }   
+    .footer {
+        background-color: #BEA5FF;
+        height: 100px;
+        width: 200px;
+    }
+    /*.a {
+        height: 250px;
+        width: 400px;
+    }*/
+    .header-right {
+        height: 160px;
+        width: 60px;
+        margin-left: 70px;
+        overflow: hidden;
+        background-color: #ffffff;
+    }
+    .a-right-top1{
+        height: 50px;
+        width: 150px;
+        margin-left: 30px;
+        margin-right: auto;
+        overflow: hidden;
+        background-color: #ffffff;
+
+    }
+    .a-right-top2{
+        height: 50px;
+        width: 150px;
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-right: auto;
+        overflow: hidden;
+        background-color: #ffffff;
+    }
+    .a-right-top3{
+        height: 50px;
+        width: 150px;
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-right: auto;
+        overflow: hidden;
+        background-color: #ffffff;
+    }
+    }
